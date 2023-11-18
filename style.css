@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    overflow: hidden;
+}
+
+#part1{
+    min-height: 150vh;
+    width:100vw;
+    padding:0.1px;
+
+}
+
+#part1 #nav{
+
+    position:fixed;
+    top:0%; 
+    height: 71px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 120px;
+    padding-left: 100px;
+    background-color: #fff;
+}
+
+#part1 #nav #contact{
+    height: 16px;
+    color:#fff;
+    font-size: 13px;
+    font-weight:100;
+    margin-right: 50px;
+}
+
+#part1 #nav #gucci{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50.5%,18%);
+    height:fit-content;
+    width:fit-content;
+}
+
+#part1 #nav #gucci svg{
+    fill: #000;
+    height:210px;
+}
+
+#part1 #nav #menu{
+    height: 20px;
+    width:13%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:15px;
+    font-size:20.5px;
+}
+
+
+#part1 img{
+    position:absolute;
+    top:116.2%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height: 139.9%;
+    width:52.8%;
+    z-index:-10;
+}
+
+#part1 #base{
+    position:absolute;
+    top:200%;
+    left:30%;
+    height:150px;
+    width:40%;
+    text-align:center;
+}
+
+#part1 #base h1{
+    font-size:45px;
+    font-family:Helvetica;
+    font-weight:100;
+    color: #000;
+    -webkit-text-stroke:1px;
+    -webkit-text-stroke-color: transparent;
+}
+
+#part1 #base button{
+    padding:16px 29px;
+    border-radius:3px;
+    margin-top: 13px;
+    border: none;
+    font-weight:100;
+    -webkit-text-stroke:0.3px;
+    -webkit-text-stroke-color: #fff;
+    background-color: #000;
+    color: #fff;
+    
+}
+
+#part2{
+    height: 100vh;
+    width:100vw;
+}
